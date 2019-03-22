@@ -1,0 +1,13 @@
+// 
+// Decompiled by Procyon v0.5.30
+// 
+
+package com.twitter.bijection;
+
+import scala.reflect.ScalaSignature;
+
+@ScalaSignature(bytes = "\u0006\u0001E2q!\u0001\u0002\u0011\u0002\u0007\u0005\u0011BA\u000bM_^\u0004&/[8sSRL\u0018J\u001c6fGRLwN\\:\u000b\u0005\r!\u0011!\u00032jU\u0016\u001cG/[8o\u0015\t)a!A\u0004uo&$H/\u001a:\u000b\u0003\u001d\t1aY8n\u0007\u0001\u0019\"\u0001\u0001\u0006\u0011\u0005-qQ\"\u0001\u0007\u000b\u00035\tQa]2bY\u0006L!a\u0004\u0007\u0003\r\u0005s\u0017PU3g\u0011\u0015\t\u0002\u0001\"\u0001\u0013\u0003\u0019!\u0013N\\5uIQ\t1\u0003\u0005\u0002\f)%\u0011Q\u0003\u0004\u0002\u0005+:LG\u000fC\u0003\u0018\u0001\u0011\r\u0001$A\u000bge>l\u0017*\u001c9mS\u000eLGOQ5kK\u000e$\u0018n\u001c8\u0016\u0007e\u0001#\u0006\u0006\u0002\u001bYA!1\u0004\b\u0010*\u001b\u0005\u0011\u0011BA\u000f\u0003\u0005%IeN[3di&|g\u000e\u0005\u0002 A1\u0001A!B\u0011\u0017\u0005\u0004\u0011#!A!\u0012\u0005\r2\u0003CA\u0006%\u0013\t)CBA\u0004O_RD\u0017N\\4\u0011\u0005-9\u0013B\u0001\u0015\r\u0005\r\te.\u001f\t\u0003?)\"Qa\u000b\fC\u0002\t\u0012\u0011A\u0011\u0005\u0006[Y\u0001\u001dAL\u0001\u0004E&T\u0007\u0003B\u000e0=%J!\u0001\r\u0002\u0003#%k\u0007\u000f\\5dSR\u0014\u0015N[3di&|g\u000e")
+public interface LowPriorityInjections
+{
+     <A, B> Injection<A, B> fromImplicitBijection(final ImplicitBijection<A, B> p0);
+}
